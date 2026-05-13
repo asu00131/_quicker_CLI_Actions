@@ -1,0 +1,87 @@
+{
+  "Variables": [
+    {
+      "Key": "progress",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showWaitWin",
+      "InputParams": {
+        "mode": {
+          "VarKey": null,
+          "Value": "show"
+        },
+        "title": {
+          "VarKey": null,
+          "Value": "完成后继续"
+        },
+        "prompt": {
+          "VarKey": null,
+          "Value": "请在完成操作后点下面的按钮"
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "BottomRight"
+        },
+        "progress": {
+          "VarKey": "progress",
+          "Value": null
+        },
+        "btnText": {
+          "VarKey": null,
+          "Value": "完成"
+        },
+        "operations": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontsize": {
+          "VarKey": null,
+          "Value": "12"
+        },
+        "iconSize": {
+          "VarKey": null,
+          "Value": "16"
+        },
+        "stopActionIfClose": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "autoCloseSeconds": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "activateMode": {
+          "VarKey": null,
+          "Value": "NotActivatable"
+        },
+        "help": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,34 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:jsscript",
+      "InputParams": {
+        "script": {
+          "VarKey": null,
+          "Value": "//.js 主函数 exec()\r\nfunction exec(){\r\n var localName = quickerGetVar('text');  // 读取text变量值, (text 是动作里的变量)\r\n quickerSetVar('text', 'Hello, ' + localName ); //输出修改后的值到text变量中。\r\n return 0; //返回0表示成功。返回其他数字表示失败。\r\n}\r\n"
+        },
+        "allClr": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "return": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

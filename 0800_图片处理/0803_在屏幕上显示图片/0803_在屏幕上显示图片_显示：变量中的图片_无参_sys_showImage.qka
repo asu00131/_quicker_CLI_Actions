@@ -1,0 +1,85 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showImage",
+      "InputParams": {
+        "source": {
+          "VarKey": null,
+          "Value": "var"
+        },
+        "imgVar": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "scale": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "opacity": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "autoCloseKey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoCloseTime": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "Auto"
+        },
+        "winPosition": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitClose": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "showDropShadow": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "showTaskbarIcon": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "noActivate": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "closeWhenLostFocus": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "tooltip": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "closeCallbackParam": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "hwnd": null,
+        "finalPosition": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

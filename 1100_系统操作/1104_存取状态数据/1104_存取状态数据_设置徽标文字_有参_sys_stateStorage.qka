@@ -1,0 +1,83 @@
+{
+  "Variables": [
+    {
+      "Key": "badgeText",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "badgeColor",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "badgeTextColor",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:stateStorage",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "UpdateActionBadge"
+        },
+        "badgeText": {
+          "VarKey": "badgeText",
+          "Value": null
+        },
+        "badgeColor": {
+          "VarKey": "badgeColor",
+          "Value": null
+        },
+        "badgeTextColor": {
+          "VarKey": "badgeTextColor",
+          "Value": null
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

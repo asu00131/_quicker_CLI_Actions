@@ -1,0 +1,22 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:keyoperation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "key_keyup_v1"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

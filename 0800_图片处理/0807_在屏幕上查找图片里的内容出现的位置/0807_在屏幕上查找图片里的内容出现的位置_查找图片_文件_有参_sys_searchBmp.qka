@@ -1,0 +1,169 @@
+{
+  "Variables": [
+    {
+      "Key": "bmp",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "firstPoint",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "imgIndex",
+      "IsLocked": false,
+      "Type": 12,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "allPoints",
+      "IsLocked": false,
+      "Type": 4,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:searchBmp",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "locateByBitmapFile"
+        },
+        "bmp": {
+          "VarKey": "bmp",
+          "Value": null
+        },
+        "bmpTargetType": {
+          "VarKey": null,
+          "Value": "MainScreen"
+        },
+        "searchRect": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "bmpPosition": {
+          "VarKey": null,
+          "Value": "Center"
+        },
+        "x": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "y": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "bmpColorError": {
+          "VarKey": null,
+          "Value": "10"
+        },
+        "maxFindCount": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "retryCount": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "ignoreBgColor": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "firstPoint": "firstPoint",
+        "allPoints": "allPoints",
+        "imgIndex": "imgIndex",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

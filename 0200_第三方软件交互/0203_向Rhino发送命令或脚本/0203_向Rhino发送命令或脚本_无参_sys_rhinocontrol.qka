@@ -1,0 +1,42 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:rhinocontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "RunScript"
+        },
+        "command": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitResp": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitMs": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "output": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

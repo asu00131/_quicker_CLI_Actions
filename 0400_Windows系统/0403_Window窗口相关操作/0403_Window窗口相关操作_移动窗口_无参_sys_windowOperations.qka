@@ -1,0 +1,49 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:windowOperations",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "move"
+        },
+        "hWnd": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "x": {
+          "VarKey": null,
+          "Value": "100"
+        },
+        "y": {
+          "VarKey": null,
+          "Value": "100"
+        },
+        "width": {
+          "VarKey": null,
+          "Value": "500"
+        },
+        "height": {
+          "VarKey": null,
+          "Value": "500"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

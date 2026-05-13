@@ -1,0 +1,42 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:webview2",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "CheckWindowState"
+        },
+        "autoCloseKey": {
+          "VarKey": null,
+          "Value": "="
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "hWnd": null,
+        "webView": null,
+        "lastLocation": null,
+        "currUri": null,
+        "docTitle": null,
+        "sourceCode": null,
+        "cookies": null,
+        "previewImage": null,
+        "isNavCompleted": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

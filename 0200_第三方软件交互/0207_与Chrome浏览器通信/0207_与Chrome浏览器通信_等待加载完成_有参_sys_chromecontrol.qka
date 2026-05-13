@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:chromecontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "WaitTabComplete"
+        },
+        "tabId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "3000"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rawResponse": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

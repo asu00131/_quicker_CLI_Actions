@@ -1,0 +1,57 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:tableoperation",
+      "InputParams": {
+        "table": {
+          "VarKey": "",
+          "Value": null
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "export_text"
+        },
+        "csvDelimiter": {
+          "VarKey": null,
+          "Value": ","
+        },
+        "filterExpression": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "sort": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "exportColumns": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "useColumnTitle": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "csvExportData": null,
+        "jsonExportData": null,
+        "affectedRowCount": null,
+        "rowCount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

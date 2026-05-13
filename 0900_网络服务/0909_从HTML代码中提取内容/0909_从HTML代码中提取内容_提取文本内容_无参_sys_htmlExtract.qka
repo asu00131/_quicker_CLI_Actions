@@ -1,0 +1,55 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:htmlExtract",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "extractText"
+        },
+        "source": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "encoding": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "xpath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "selectTarget": {
+          "VarKey": null,
+          "Value": "single"
+        },
+        "returnType": {
+          "VarKey": null,
+          "Value": "InnerHtml"
+        },
+        "attribute": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "value": null,
+        "rootNode": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

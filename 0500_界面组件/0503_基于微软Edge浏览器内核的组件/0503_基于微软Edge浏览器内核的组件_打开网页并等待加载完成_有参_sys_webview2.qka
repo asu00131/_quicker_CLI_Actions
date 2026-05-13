@@ -1,0 +1,273 @@
+{
+  "Variables": [
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "hWnd",
+      "IsLocked": false,
+      "Type": 12,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "webView",
+      "IsLocked": false,
+      "Type": 99,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "lastLocation",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "currUri",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "docTitle",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "sourceCode",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "cookies",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:webview2",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "OpenAndWaitLoad"
+        },
+        "url": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "additionalBrowserArguments": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "virtualHostToFolder": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "userAgent": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "title": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "icon": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultBgColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoCloseKey": {
+          "VarKey": null,
+          "Value": "="
+        },
+        "modeForExists": {
+          "VarKey": null,
+          "Value": "SkipThisStep"
+        },
+        "script": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "defaultDownloadFolderPath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "profileName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "showInTaskbar": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "noActivate": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "closeWhenLostFocus": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "escCloseWindow": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "showToolbar": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "windowStyle": {
+          "VarKey": null,
+          "Value": "normal"
+        },
+        "clearCookies": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "addDevTool": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "hWnd": "hWnd",
+        "webView": "webView",
+        "lastLocation": "lastLocation",
+        "currUri": "currUri",
+        "docTitle": "docTitle",
+        "sourceCode": "sourceCode",
+        "cookies": "cookies",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

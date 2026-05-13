@@ -1,0 +1,22 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:if",
+      "InputParams": {
+        "condition": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": [],
+      "ElseSteps": [],
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

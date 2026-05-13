@@ -1,0 +1,42 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:stringProcess",
+      "InputParams": {
+        "data": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "method": {
+          "VarKey": null,
+          "Value": "padLeft"
+        },
+        "totalWidth": {
+          "VarKey": null,
+          "Value": "10"
+        },
+        "paddingChar": {
+          "VarKey": null,
+          "Value": " "
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "output": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

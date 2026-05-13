@@ -1,0 +1,126 @@
+{
+  "Variables": [
+    {
+      "Key": "bmp",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:mouse",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "locateByBitmap"
+        },
+        "bmp": {
+          "VarKey": "bmp",
+          "Value": null
+        },
+        "bmpTargetType": {
+          "VarKey": null,
+          "Value": "MainScreen"
+        },
+        "searchRect": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "bmpPosition": {
+          "VarKey": null,
+          "Value": "Center"
+        },
+        "bmpColorError": {
+          "VarKey": null,
+          "Value": "10"
+        },
+        "maxFindCount": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "retryCount": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "x": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "y": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "slowMove": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "extAction": {
+          "VarKey": null,
+          "Value": "none"
+        },
+        "restoreMousePos": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

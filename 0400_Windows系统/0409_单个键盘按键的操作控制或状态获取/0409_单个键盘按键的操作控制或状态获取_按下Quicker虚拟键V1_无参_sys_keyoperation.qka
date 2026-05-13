@@ -1,0 +1,26 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:keyoperation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "key_keydown_v1"
+        },
+        "keepMs": {
+          "VarKey": null,
+          "Value": "1000"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

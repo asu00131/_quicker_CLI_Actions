@@ -1,0 +1,74 @@
+{
+  "Variables": [
+    {
+      "Key": "约定路径",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:subprogram",
+      "InputParams": {
+        "subProgram": {
+          "VarKey": null,
+          "Value": "@@d8ff0288-e129-4c12-be9c-08dad4c69d2d@5@00131约定路径？"
+        },
+        "var:加入quicker昵称": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "var:加入文件夹名称_空值为动作名称": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "skipDebugOutput": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "summary": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "var:约定路径": "约定路径",
+        "var:约定路径Plus": null,
+        "var:actionId": null,
+        "var:文件夹名称": null,
+        "var:xlsx表格路径": null,
+        "var:xls表格路径": null,
+        "var:csv表格路径": null,
+        "var:txt路径": null,
+        "var:png路径": null,
+        "var:jpg路径": null,
+        "var:zip路径": null,
+        "var:数据库路径": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:numberprocess",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "toInteger"
+        },
+        "srcNumber": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "toIntegerMethod": {
+          "VarKey": null,
+          "Value": "Round45"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rtnInteger": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "取整",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,26 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:mouse",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "up"
+        },
+        "btn": {
+          "VarKey": null,
+          "Value": "left"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,51 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:getWindowTitle",
+      "InputParams": {
+        "which": {
+          "VarKey": null,
+          "Value": "selectWindow"
+        },
+        "winRectIncludeInvisibleBorder": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "output": null,
+        "className": null,
+        "handle": null,
+        "pid": null,
+        "procName": null,
+        "path": null,
+        "parent": null,
+        "root": null,
+        "rootOwner": null,
+        "rect": null,
+        "rectNoSize": null,
+        "rectDict": null,
+        "isTopmost": null,
+        "isVisible": null,
+        "showState": null,
+        "alpha": null,
+        "borderColor": null,
+        "allChildWindows": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

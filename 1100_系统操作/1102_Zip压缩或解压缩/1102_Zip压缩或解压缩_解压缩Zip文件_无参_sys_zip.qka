@@ -1,0 +1,54 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:zip",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "Unzip"
+        },
+        "sourceZipFile": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "outputPath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "password": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "overwrite": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "skipOverwriteError": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "showProgress": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "resultPath": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

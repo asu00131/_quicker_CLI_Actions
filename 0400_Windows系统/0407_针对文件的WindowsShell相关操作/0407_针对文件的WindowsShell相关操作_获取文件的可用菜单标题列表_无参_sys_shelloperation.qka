@@ -1,0 +1,34 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:shelloperation",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "gettitles"
+        },
+        "pathOrExt": {
+          "VarKey": null,
+          "Value": ".txt"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "titles": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

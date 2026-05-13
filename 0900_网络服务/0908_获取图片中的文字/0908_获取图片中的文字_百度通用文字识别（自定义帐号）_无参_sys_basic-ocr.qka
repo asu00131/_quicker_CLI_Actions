@@ -1,0 +1,53 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:basic-ocr",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "baidu-basic"
+        },
+        "apiKey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "secretKey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "imgVar": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "punctuationType": {
+          "VarKey": null,
+          "Value": "no"
+        },
+        "mergeChapter": {
+          "VarKey": null,
+          "Value": "no"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "content": null,
+        "textList": null,
+        "rawData": null,
+        "rawObject": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

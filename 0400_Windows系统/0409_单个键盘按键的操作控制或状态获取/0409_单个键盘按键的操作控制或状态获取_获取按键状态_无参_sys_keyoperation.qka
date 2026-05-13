@@ -1,0 +1,33 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:keyoperation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "get_key_state"
+        },
+        "key": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "getRealMouseState": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isDown": null,
+        "isToggled": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

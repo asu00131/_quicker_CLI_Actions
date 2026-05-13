@@ -1,0 +1,60 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:chromecontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "GetElementInfo"
+        },
+        "tabId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "selector": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "elementInfo": {
+          "VarKey": null,
+          "Value": "Value"
+        },
+        "attrName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "3000"
+        },
+        "frame": {
+          "VarKey": null,
+          "Value": "all"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "fixSelector": {
+          "VarKey": null,
+          "Value": "auto"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "firstValue": null,
+        "allValues": null,
+        "rawResponse": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

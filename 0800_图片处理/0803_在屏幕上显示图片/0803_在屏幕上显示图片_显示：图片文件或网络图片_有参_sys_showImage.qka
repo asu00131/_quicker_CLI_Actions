@@ -1,0 +1,150 @@
+{
+  "Variables": [
+    {
+      "Key": "path",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "autoCloseKey",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "hwnd",
+      "IsLocked": false,
+      "Type": 12,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "finalPosition",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showImage",
+      "InputParams": {
+        "source": {
+          "VarKey": null,
+          "Value": "file"
+        },
+        "path": {
+          "VarKey": "path",
+          "Value": null
+        },
+        "scale": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "opacity": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "autoCloseKey": {
+          "VarKey": "autoCloseKey",
+          "Value": null
+        },
+        "autoCloseTime": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "Auto"
+        },
+        "winPosition": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitClose": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "showDropShadow": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "showTaskbarIcon": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "noActivate": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "closeWhenLostFocus": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "tooltip": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "closeCallbackParam": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "hwnd": "hwnd",
+        "finalPosition": "finalPosition"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

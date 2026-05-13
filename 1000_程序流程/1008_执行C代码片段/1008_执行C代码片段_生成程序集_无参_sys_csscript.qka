@@ -1,0 +1,39 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:csscript",
+      "InputParams": {
+        "mode": {
+          "VarKey": null,
+          "Value": "generate_assembly"
+        },
+        "scriptForAssembly": {
+          "VarKey": null,
+          "Value": "//.cs  文件类型，便于外部编辑时使用\r\n// 引用必要的命名空间\r\nusing System.Windows.Forms;\r\n\r\nnamespace MyNamespace\r\n{\r\n    // Quicker将会调用的函数\r\n    public static class MyClass\r\n    {\r\n        public static string Exec(string paramValue)\r\n        {\r\n            System.Windows.Forms.MessageBox.Show(\"Hello World!\");\r\n            return \"Hello World!\";\r\n        }\r\n    }\r\n}\r\n"
+        },
+        "reference": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rtnAssembly": null,
+        "assemblyPath": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

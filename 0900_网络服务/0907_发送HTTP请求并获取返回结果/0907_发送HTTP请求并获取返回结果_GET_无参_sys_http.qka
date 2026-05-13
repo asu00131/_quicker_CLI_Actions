@@ -1,0 +1,82 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:http",
+      "InputParams": {
+        "url": {
+          "VarKey": null,
+          "Value": "https://"
+        },
+        "method": {
+          "VarKey": null,
+          "Value": "GET"
+        },
+        "header": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "cookie": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "resultType": {
+          "VarKey": null,
+          "Value": "Text"
+        },
+        "ua": {
+          "VarKey": null,
+          "Value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+        },
+        "expireSeconds": {
+          "VarKey": null,
+          "Value": "100"
+        },
+        "noAutoRedirect": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "showProgress": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "skipCertVerify": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "forceProxy": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "useSSE": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "sseSpName": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "statusCode": null,
+        "respHeaders": null,
+        "respCookies": null,
+        "content": null,
+        "imgResult": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

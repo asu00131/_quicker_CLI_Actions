@@ -1,0 +1,49 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:getSysInfo",
+      "InputParams": {},
+      "OutputParams": {
+        "MachineName": null,
+        "userName": null,
+        "userDomainName": null,
+        "OsVersion": null,
+        "isWin10": null,
+        "isWin11": null,
+        "isAutoRun": null,
+        "startupSeconds": null,
+        "isLocked": null,
+        "sysEnv": null,
+        "primaryScreenRes": null,
+        "isFullscreen": null,
+        "isNetworkConnected": null,
+        "lanIp": null,
+        "quickerVersion": null,
+        "isPro": null,
+        "unionId": null,
+        "hasBaiduAccount": null,
+        "runnedSeconds": null,
+        "actionId": null,
+        "actionName": null,
+        "sharedActionId": null,
+        "sharedActionRevision": null,
+        "actionCount": null,
+        "isDebugging": null,
+        "trigger": null,
+        "textParam": null,
+        "imageParam": null,
+        "isWinInDarkMode": null,
+        "quickerThemeMode": null,
+        "isPaused": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

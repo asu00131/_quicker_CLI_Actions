@@ -1,0 +1,50 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:adobesoftscontrol",
+      "InputParams": {
+        "software": {
+          "VarKey": null,
+          "Value": "Photoshop.Application"
+        },
+        "operation": {
+          "VarKey": null,
+          "Value": "dojavascript"
+        },
+        "script": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitResp": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "tryRunScriptUsingExe": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "waitMs": {
+          "VarKey": null,
+          "Value": "10000"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "output": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

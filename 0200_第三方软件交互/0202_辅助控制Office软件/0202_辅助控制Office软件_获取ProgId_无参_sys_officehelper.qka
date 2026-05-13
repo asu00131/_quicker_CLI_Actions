@@ -1,0 +1,34 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:officehelper",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "getProgId"
+        },
+        "appType": {
+          "VarKey": null,
+          "Value": "word_wps"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "progId": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

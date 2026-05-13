@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:subprogram",
+      "InputParams": {
+        "subProgram": {
+          "VarKey": null,
+          "Value": "00笔记本窗口"
+        },
+        "var:text": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "skipDebugOutput": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "summary": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

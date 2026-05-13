@@ -1,0 +1,42 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:excelObjects",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "OpenFile"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "params": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "activeWorkbook": null,
+        "activeSheet": null,
+        "worksheetNames": null,
+        "worksheets": null,
+        "application": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

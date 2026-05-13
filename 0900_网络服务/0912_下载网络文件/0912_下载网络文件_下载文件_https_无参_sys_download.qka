@@ -1,0 +1,69 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:download",
+      "InputParams": {
+        "url": {
+          "VarKey": null,
+          "Value": "https://"
+        },
+        "savePath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "saveName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "ua": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "header": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "cookie": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "expireSeconds": {
+          "VarKey": null,
+          "Value": "10"
+        },
+        "skipCertVerify": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "showProgress": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "autoRename": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "savedPath": null,
+        "contentMd5": null,
+        "eTag": null,
+        "downloadSize": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

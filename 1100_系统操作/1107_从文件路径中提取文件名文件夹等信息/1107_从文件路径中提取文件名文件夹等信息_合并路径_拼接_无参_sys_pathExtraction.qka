@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:pathExtraction",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "combine"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "path2": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "path3": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "path4": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "resultPath": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

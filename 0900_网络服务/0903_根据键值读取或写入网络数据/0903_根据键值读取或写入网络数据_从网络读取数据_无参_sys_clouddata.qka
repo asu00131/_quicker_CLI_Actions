@@ -1,0 +1,40 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:clouddata",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "readGlobalState"
+        },
+        "key": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "expireSeconds": {
+          "VarKey": null,
+          "Value": "2.5"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "value": null,
+        "err": null,
+        "errCode": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

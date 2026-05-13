@@ -1,0 +1,43 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:screenCapture",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "window"
+        },
+        "windowHandle": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "delay": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "toClip": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "img": null,
+        "rect": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

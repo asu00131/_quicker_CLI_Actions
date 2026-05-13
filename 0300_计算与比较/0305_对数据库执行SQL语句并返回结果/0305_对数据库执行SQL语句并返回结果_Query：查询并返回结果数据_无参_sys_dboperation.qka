@@ -1,0 +1,53 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:dboperation",
+      "InputParams": {
+        "dbType": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "connectionString": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "sql": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "sqlParam": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "timeoutSeconds": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "operationType": {
+          "VarKey": null,
+          "Value": "Query"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "dataTableResult": null,
+        "listResult": null,
+        "firstItem": null,
+        "rowCount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

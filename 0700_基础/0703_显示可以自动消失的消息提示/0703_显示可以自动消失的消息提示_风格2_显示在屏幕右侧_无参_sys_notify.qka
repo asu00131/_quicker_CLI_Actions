@@ -1,0 +1,34 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:notify",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "Info"
+        },
+        "msg": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "maxLines": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "style": {
+          "VarKey": null,
+          "Value": "Style2"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "风格2（显示在屏幕右侧)",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

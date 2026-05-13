@@ -1,0 +1,73 @@
+{
+  "Variables": [
+    {
+      "Key": "stopCondition",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "count",
+      "IsLocked": false,
+      "Type": 12,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:repeat",
+      "InputParams": {
+        "count": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopCondition": {
+          "VarKey": "stopCondition",
+          "Value": null
+        },
+        "startIndex": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "repeatDelayMs": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "progressBarTitle": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "count": "count"
+      },
+      "IfSteps": [],
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

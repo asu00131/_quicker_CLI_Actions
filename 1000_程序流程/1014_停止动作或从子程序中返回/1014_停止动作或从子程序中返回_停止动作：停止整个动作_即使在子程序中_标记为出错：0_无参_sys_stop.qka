@@ -1,0 +1,34 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:stop",
+      "InputParams": {
+        "method": {
+          "VarKey": null,
+          "Value": "forcestop"
+        },
+        "isError": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "return": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "showMessage": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

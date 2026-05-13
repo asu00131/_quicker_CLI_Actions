@@ -1,0 +1,34 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:keyInput",
+      "InputParams": {
+        "keys": {
+          "VarKey": null,
+          "Value": "{\"CtrlKeys\":[],\"Keys\":[]}"
+        },
+        "repeat": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "interval": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "holdMs": {
+          "VarKey": null,
+          "Value": "-1"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,60 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:cloud_oss",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "Upload"
+        },
+        "vendor": {
+          "VarKey": null,
+          "Value": "Aliyun"
+        },
+        "vendorSettings": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "key": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "content": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "customDomain": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "extraHeaders": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "expireSeconds": {
+          "VarKey": null,
+          "Value": "180"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "vendorUrl": null,
+        "customUrl": null,
+        "err": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

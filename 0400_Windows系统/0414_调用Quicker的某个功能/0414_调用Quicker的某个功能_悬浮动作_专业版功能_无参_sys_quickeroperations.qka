@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:quickeroperations",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "FloatAction"
+        },
+        "actionId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "position": {
+          "VarKey": null,
+          "Value": "200,200"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "windowHandle": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

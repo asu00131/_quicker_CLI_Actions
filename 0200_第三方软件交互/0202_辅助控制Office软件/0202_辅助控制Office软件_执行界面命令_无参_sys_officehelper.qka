@@ -1,0 +1,45 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:officehelper",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "executeMsoCommand"
+        },
+        "appType": {
+          "VarKey": null,
+          "Value": "word_wps"
+        },
+        "command": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitResp": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitMs": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,35 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:httpserver",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "GetServerState"
+        },
+        "serviceId": {
+          "VarKey": null,
+          "Value": "default"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "isRunning": null,
+        "serverList": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

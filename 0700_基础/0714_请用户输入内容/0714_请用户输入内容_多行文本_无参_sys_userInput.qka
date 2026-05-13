@@ -1,0 +1,91 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:userInput",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "multiline"
+        },
+        "prompt": {
+          "VarKey": null,
+          "Value": "请输入内容"
+        },
+        "defaultValue": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "pattern": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "isRequired": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "submitWithReturn": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "restoreFocus": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "closeOnDeactivated": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "texttools": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "extraSettings": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontfamily": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontsize": {
+          "VarKey": null,
+          "Value": "14"
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "imeState": {
+          "VarKey": null,
+          "Value": "NO_CONTROL"
+        },
+        "help": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "textValue": null,
+        "isEmpty": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

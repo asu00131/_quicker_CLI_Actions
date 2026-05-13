@@ -1,0 +1,54 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:selectFile",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "saveFile"
+        },
+        "filter": {
+          "VarKey": null,
+          "Value": "文本文件|*.txt|所有文件|*.*"
+        },
+        "defaultExt": {
+          "VarKey": null,
+          "Value": ".txt"
+        },
+        "initDir": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "initFileName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "title": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "path": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "保存文件",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

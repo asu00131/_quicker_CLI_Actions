@@ -1,0 +1,180 @@
+{
+  "Variables": [
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "button",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "selectedGroup",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "dictVar",
+      "IsLocked": false,
+      "Type": 10,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:form",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "dict_dynamic"
+        },
+        "dictVar": {
+          "VarKey": "dictVar",
+          "Value": null
+        },
+        "title": {
+          "VarKey": null,
+          "Value": "填写表单"
+        },
+        "dynamicFormForDictDef": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "help": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "titleColumnWidth": {
+          "VarKey": null,
+          "Value": "100"
+        },
+        "windowWidth": {
+          "VarKey": null,
+          "Value": "500"
+        },
+        "windowHeight": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "restoreFocus": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "disableEnterSubmit": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "markdownhelp": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultInputWidth": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "confirm": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "customButtons": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "selectedGroup": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "button": "button",
+        "selectedGroup": "selectedGroup",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

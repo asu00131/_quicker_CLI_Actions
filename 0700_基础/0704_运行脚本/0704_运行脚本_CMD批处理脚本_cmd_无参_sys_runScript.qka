@@ -1,0 +1,54 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:runScript",
+      "InputParams": {
+        "script": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "CMD_F"
+        },
+        "encoding": {
+          "VarKey": null,
+          "Value": "default"
+        },
+        "outputEncoding": {
+          "VarKey": null,
+          "Value": "oem"
+        },
+        "workingDir": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "scriptParams": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "runAsAdmin": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitToExit": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "stdout": null,
+        "stdoutOnly": null,
+        "stderr": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

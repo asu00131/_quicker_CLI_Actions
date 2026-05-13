@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:excelObjects",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "SaveWorkbook"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "workbook": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "params": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

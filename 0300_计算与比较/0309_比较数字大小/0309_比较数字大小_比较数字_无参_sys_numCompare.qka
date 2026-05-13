@@ -1,0 +1,32 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:numCompare",
+      "InputParams": {
+        "param1": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "type": {
+          "VarKey": null,
+          "Value": ">"
+        },
+        "param2": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "value": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

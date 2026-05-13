@@ -1,0 +1,47 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:runAction",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "StartAction"
+        },
+        "actionId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "inputParam": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "wait": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "debug": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "actionTitle": null,
+        "output": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

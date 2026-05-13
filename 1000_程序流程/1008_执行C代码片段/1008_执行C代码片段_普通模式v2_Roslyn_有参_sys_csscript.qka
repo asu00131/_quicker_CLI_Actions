@@ -1,0 +1,91 @@
+{
+  "Variables": [
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "rtn",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:csscript",
+      "InputParams": {
+        "mode": {
+          "VarKey": null,
+          "Value": "normal_roslyn"
+        },
+        "script": {
+          "VarKey": null,
+          "Value": "//.cs  文件类型，便于外部编辑时使用\r\n// 引用必要的命名空间\r\nusing System.Windows.Forms;\r\n\r\n// Quicker将会调用的函数。可以根据需要修改返回值类型。\r\npublic static void Exec(Quicker.Public.IStepContext context)\r\n{\r\n    //var oldValue = context.GetVarValue(\"varName\");  // 读取动作里的变量值\r\n    //MessageBox.Show(oldValue as string);\r\n    //context.SetVarValue(\"varName\", \"从脚本输出的内容。\"); // 向变量里输出值\r\n    MessageBox.Show(\"Hello World!\");\r\n}\r\n"
+        },
+        "reference": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "runOnUiThread": {
+          "VarKey": null,
+          "Value": "auto"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "rtn": "rtn",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

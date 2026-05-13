@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:fileOperation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "moveFile"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "dstPath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "overwrite": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

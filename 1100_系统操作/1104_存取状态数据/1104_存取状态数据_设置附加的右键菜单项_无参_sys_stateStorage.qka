@@ -1,0 +1,26 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:stateStorage",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "UpdateContextMenu"
+        },
+        "actionContextMenu": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

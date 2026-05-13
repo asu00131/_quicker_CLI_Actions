@@ -1,0 +1,45 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:MsgBox",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "default"
+        },
+        "message": {
+          "VarKey": null,
+          "Value": "Hello."
+        },
+        "title": {
+          "VarKey": null,
+          "Value": "Quicker"
+        },
+        "icon": {
+          "VarKey": null,
+          "Value": "Asterisk"
+        },
+        "buttons": {
+          "VarKey": null,
+          "Value": "OK"
+        },
+        "restoreFocus": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "result": null,
+        "okOrYes": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

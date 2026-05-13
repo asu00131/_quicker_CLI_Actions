@@ -1,0 +1,44 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:formatString",
+      "InputParams": {
+        "formatString": {
+          "VarKey": null,
+          "Value": "{0}"
+        },
+        "p0": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p1": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p2": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p3": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p4": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "output": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

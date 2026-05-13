@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:imgProcess",
+      "InputParams": {
+        "img": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "resize_percent"
+        },
+        "resizePercent": {
+          "VarKey": null,
+          "Value": "50"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "result": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

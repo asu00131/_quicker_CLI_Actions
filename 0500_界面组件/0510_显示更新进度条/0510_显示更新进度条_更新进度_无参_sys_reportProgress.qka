@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:reportProgress",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "UPDATE_PROGRESS"
+        },
+        "progressId": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "title": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "percentage": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "text": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

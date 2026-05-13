@@ -1,0 +1,94 @@
+{
+  "Variables": [
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:webview2",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "MultiTab_OpenUrl"
+        },
+        "urlList": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "userAgent": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "title": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoCloseKey": {
+          "VarKey": null,
+          "Value": "="
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "defaultDownloadFolderPath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "false"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

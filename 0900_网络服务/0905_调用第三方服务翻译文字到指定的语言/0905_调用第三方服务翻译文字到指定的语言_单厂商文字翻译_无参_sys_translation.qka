@@ -1,0 +1,48 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:translation",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "single"
+        },
+        "text": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "srcLang": {
+          "VarKey": null,
+          "Value": "Auto"
+        },
+        "dstLang": {
+          "VarKey": null,
+          "Value": "Auto"
+        },
+        "vendor": {
+          "VarKey": null,
+          "Value": "Youdao"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "resultText": null,
+        "rawData": null,
+        "costPoints": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

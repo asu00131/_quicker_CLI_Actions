@@ -1,0 +1,29 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:charInfo",
+      "InputParams": {
+        "char": {
+          "VarKey": null,
+          "Value": "中"
+        }
+      },
+      "OutputParams": {
+        "unicodeNum": null,
+        "unicodeHex": null,
+        "pinyinFirstChar": null,
+        "pinyin": null,
+        "pinyinFirstCharAll": null,
+        "pinyinAll": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,59 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:jsonExtract",
+      "InputParams": {
+        "data": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p0": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p1": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p2": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p3": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "p4": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "dateAsString": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "v0": null,
+        "v1": null,
+        "v2": null,
+        "v3": null,
+        "v4": null,
+        "rootToken": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

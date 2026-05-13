@@ -1,0 +1,122 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:select",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "multi"
+        },
+        "prompt": {
+          "VarKey": null,
+          "Value": "请选择"
+        },
+        "note": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "items": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultValueMulti": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "showFilter": {
+          "VarKey": null,
+          "Value": "auto"
+        },
+        "filterContent": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "WithMouse1"
+        },
+        "maxWinSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "keepLastPos": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "closeOnDeactivated": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "restoreForeground": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "allowOkWhenEmpty": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfCancel": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "imeState": {
+          "VarKey": null,
+          "Value": "NO_CONTROL"
+        },
+        "operations": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontsize": {
+          "VarKey": null,
+          "Value": "12"
+        },
+        "fontfamily": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "iconsize": {
+          "VarKey": null,
+          "Value": "16"
+        },
+        "autoCloseSeconds": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "noKeyboard": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "windowKey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "help": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "selectedIndexList": null,
+        "multiSelected": null,
+        "extraOperation": null,
+        "selectedFullItems": null,
+        "filterContent": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

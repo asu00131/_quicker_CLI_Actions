@@ -1,0 +1,55 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:each",
+      "InputParams": {
+        "input": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "useMultiThread": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "threadDelay": {
+          "VarKey": null,
+          "Value": "5"
+        },
+        "concurrentThreadNum": {
+          "VarKey": null,
+          "Value": "4"
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "-1"
+        },
+        "useLocalContext": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitAny": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "item": null,
+        "count": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": [],
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

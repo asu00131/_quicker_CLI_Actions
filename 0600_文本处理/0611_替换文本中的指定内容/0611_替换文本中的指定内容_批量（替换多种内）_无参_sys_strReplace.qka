@@ -1,0 +1,56 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:strReplace",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "batch"
+        },
+        "input": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "batchReplaceData": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "escapeOld": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "replaceEscapes": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "useRegex": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "ignoreCase": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "singleLine": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "multiLine": {
+          "VarKey": null,
+          "Value": "false"
+        }
+      },
+      "OutputParams": {
+        "output": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

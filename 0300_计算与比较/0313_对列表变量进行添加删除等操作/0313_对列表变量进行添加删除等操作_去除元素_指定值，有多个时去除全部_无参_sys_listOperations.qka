@@ -1,0 +1,33 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:listOperations",
+      "InputParams": {
+        "list": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "removeAllByValue"
+        },
+        "item": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isEmpty": null,
+        "length": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

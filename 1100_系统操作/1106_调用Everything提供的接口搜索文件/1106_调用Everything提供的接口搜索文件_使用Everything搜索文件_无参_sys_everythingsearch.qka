@@ -1,0 +1,68 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:everythingsearch",
+      "InputParams": {
+        "search": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "folder": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "ext": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "matchWholeFilename": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "matchWholeWord": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "matchPath": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "matchCase": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "useRegex": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "maxCount": {
+          "VarKey": null,
+          "Value": "100"
+        },
+        "sort": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "pathList": null,
+        "resultCount": null,
+        "rawResult": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

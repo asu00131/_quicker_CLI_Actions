@@ -1,0 +1,43 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:stateStorage",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "readActionState"
+        },
+        "key": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultValue": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "inputIfEmpty": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "prompt": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "value": null,
+        "isEmpty": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:excelreadwrite",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "getCellByValue"
+        },
+        "worksheet": {
+          "VarKey": "",
+          "Value": null
+        },
+        "cellValue": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "firstRow": null,
+        "firstCellNum": null,
+        "cellAddress": null,
+        "cellAddressList": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

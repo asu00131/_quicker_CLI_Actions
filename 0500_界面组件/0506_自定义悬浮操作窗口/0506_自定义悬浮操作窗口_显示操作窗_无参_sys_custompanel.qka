@@ -1,0 +1,126 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:custompanel",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "show_fixed_panel"
+        },
+        "operationData": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultOperation": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "spacingStr": {
+          "VarKey": null,
+          "Value": "5"
+        },
+        "buttonPadding": {
+          "VarKey": null,
+          "Value": "10,6"
+        },
+        "columnCount": {
+          "VarKey": null,
+          "Value": "2"
+        },
+        "columnWidth": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "groupMode": {
+          "VarKey": null,
+          "Value": "heading"
+        },
+        "selectGroup": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "title": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "windowId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "buttonContextMenuData": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "saveState": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "horzAlign": {
+          "VarKey": null,
+          "Value": "Center"
+        },
+        "bgColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "btnColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "btnBorderColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontsize": {
+          "VarKey": null,
+          "Value": "12"
+        },
+        "iconsize": {
+          "VarKey": null,
+          "Value": "16"
+        },
+        "contextMenuData": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "bindProc": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoCollapse": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "winHandle": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

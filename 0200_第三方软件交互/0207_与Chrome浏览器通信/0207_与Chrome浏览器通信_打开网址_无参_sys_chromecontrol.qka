@@ -1,0 +1,52 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:chromecontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "OpenUrl"
+        },
+        "windowId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "url": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "windowInfo": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitComplete": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "3000"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "tabId": null,
+        "windowId": null,
+        "rawResponse": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

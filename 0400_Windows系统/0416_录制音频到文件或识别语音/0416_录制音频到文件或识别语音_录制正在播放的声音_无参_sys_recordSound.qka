@@ -1,0 +1,42 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:recordSound",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "record_internal"
+        },
+        "filePath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "silentStopSeconds": {
+          "VarKey": null,
+          "Value": "3"
+        },
+        "volumeGain": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "outputFilePath": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,61 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:websocket",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "CreateClient"
+        },
+        "server": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "clientId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "spName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "content": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "account": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "cookie": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "origin": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "callbackOnClose": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

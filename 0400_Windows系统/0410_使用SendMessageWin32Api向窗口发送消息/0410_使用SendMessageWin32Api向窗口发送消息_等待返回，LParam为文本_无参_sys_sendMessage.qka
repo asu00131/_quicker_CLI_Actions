@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:sendMessage",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "SendMessageTextLParam"
+        },
+        "hWnd": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "wMsg": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "wParam": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "textLParam": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rtn": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "等待返回，LParam为文本",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

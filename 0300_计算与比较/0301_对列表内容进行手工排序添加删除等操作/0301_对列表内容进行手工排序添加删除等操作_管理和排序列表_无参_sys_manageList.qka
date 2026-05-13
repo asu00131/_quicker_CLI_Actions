@@ -1,0 +1,69 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:manageList",
+      "InputParams": {
+        "list": {
+          "VarKey": "",
+          "Value": null
+        },
+        "winTitle": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "note": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "parseData": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "seperator": {
+          "VarKey": null,
+          "Value": "|"
+        },
+        "windowSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "allowAdd": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "allowEdit": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "allowDelete": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "help": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "titleDelegate": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

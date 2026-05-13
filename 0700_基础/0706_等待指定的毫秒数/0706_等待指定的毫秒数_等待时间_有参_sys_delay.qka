@@ -1,0 +1,26 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:delay",
+      "InputParams": {
+        "delayMs": {
+          "VarKey": null,
+          "Value": "1000"
+        },
+        "monitorWaitWin": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

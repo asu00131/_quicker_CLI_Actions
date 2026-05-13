@@ -1,0 +1,37 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:group",
+      "InputParams": {
+        "skipErr": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "skipWhenDebugging": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "useMultiThread": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitAny": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errorMessage": null
+      },
+      "IfSteps": [],
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

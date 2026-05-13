@@ -1,0 +1,65 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:subprogram",
+      "InputParams": {
+        "subProgram": {
+          "VarKey": null,
+          "Value": "@@8f50c3b9-635f-4f56-df5d-08ddcf2ea2b8@6@py"
+        },
+        "var:Python_Version": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:py代码": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:工具包": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:传参": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:formatString": {
+          "VarKey": null,
+          "Value": "{0}\r\n【=======stderr=======】\r\n{1}\r\n【===pipErrorMessages===】\r\n{2}"
+        },
+        "var:显示方式": {
+          "VarKey": null,
+          "Value": "笔记本窗口"
+        },
+        "var:更改安装目录": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "skipDebugOutput": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "summary": {
+          "VarKey": null,
+          "Value": " 笔记本窗口"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

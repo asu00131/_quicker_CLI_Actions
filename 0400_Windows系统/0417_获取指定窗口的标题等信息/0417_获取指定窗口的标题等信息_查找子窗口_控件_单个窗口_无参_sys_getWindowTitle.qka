@@ -1,0 +1,44 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:getWindowTitle",
+      "InputParams": {
+        "which": {
+          "VarKey": null,
+          "Value": "findChildWindow"
+        },
+        "hWnd": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "className": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "windowName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "handle": null,
+        "rectNoSize": null,
+        "rectDict": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

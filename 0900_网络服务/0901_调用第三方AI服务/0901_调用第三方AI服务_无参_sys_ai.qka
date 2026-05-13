@@ -1,0 +1,113 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:ai",
+      "InputParams": {
+        "endpoint": {
+          "VarKey": null,
+          "Value": "chat"
+        },
+        "apiUrlFormat": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "apiKey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "model": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "systemPrompt": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "prompt": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "sessionId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "historyMessages": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "maxTokens": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "temperature": {
+          "VarKey": null,
+          "Value": "0.2"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "apiOrg": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "topP": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "n": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stream": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "streamTo": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stop": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "expireSeconds": {
+          "VarKey": null,
+          "Value": "120"
+        },
+        "respFormat": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "extraProps": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "forceProxy": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "result": null,
+        "rawResponse": null,
+        "reasoningContent": null,
+        "promptTokens": null,
+        "completionTokens": null,
+        "totalTokens": null,
+        "finishReason": null,
+        "historyMessages": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

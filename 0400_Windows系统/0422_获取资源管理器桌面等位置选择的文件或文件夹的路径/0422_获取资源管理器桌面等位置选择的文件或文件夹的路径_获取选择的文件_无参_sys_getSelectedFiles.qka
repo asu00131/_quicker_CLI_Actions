@@ -1,0 +1,42 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:getSelectedFiles",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "getSelection"
+        },
+        "waitMs": {
+          "VarKey": null,
+          "Value": "200"
+        },
+        "sortType": {
+          "VarKey": null,
+          "Value": "Default"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "files": null,
+        "firstFile": null,
+        "fileNames": null,
+        "firstFileName": null,
+        "fileCount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

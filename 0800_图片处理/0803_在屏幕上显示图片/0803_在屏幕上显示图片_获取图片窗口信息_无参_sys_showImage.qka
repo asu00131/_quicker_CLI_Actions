@@ -1,0 +1,30 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showImage",
+      "InputParams": {
+        "source": {
+          "VarKey": null,
+          "Value": "getState"
+        },
+        "autoCloseKey": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isExists": null,
+        "hwnd": null,
+        "finalPosition": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

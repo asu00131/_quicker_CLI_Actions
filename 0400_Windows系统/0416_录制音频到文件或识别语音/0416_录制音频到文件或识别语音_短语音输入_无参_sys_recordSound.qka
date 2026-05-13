@@ -1,0 +1,43 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:recordSound",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "short_voice_input"
+        },
+        "silentStopSeconds": {
+          "VarKey": null,
+          "Value": "3"
+        },
+        "helpText": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "vendorAccount": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "speechContent": null,
+        "error": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,75 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:httpserver",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "CreateFileServer"
+        },
+        "port": {
+          "VarKey": null,
+          "Value": "8080"
+        },
+        "enableHttps": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "docPath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultDoc": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "password": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "serviceId": {
+          "VarKey": null,
+          "Value": "default"
+        },
+        "autoShutdownSeconds": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "showNotifyWhenAutoClose": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "headCode": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "bodyCode": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "customRequest": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "serverUrl": null,
+        "serverUrlWithAccount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

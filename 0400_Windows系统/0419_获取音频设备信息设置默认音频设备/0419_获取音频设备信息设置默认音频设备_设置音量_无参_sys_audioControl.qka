@@ -1,0 +1,37 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:audioControl",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "SetDeviceVolume"
+        },
+        "id": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "volume": {
+          "VarKey": null,
+          "Value": "0.1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

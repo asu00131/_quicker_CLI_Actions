@@ -1,0 +1,37 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:winservice",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "getRegValue"
+        },
+        "regKeyPath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "regValueName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isExists": null,
+        "regValue": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

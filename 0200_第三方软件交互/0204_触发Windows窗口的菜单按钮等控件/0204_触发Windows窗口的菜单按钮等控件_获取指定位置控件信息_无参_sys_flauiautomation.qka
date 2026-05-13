@@ -1,0 +1,44 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:flauiautomation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "GetControlInfoByPosition"
+        },
+        "pointLocation": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "value": null,
+        "controlText": null,
+        "rect": null,
+        "controlName": null,
+        "controlType": null,
+        "controlXPath": null,
+        "controlTypeId": null,
+        "controlInfo": null,
+        "controlIsEnabled": null,
+        "controlIsVisible": null,
+        "element": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

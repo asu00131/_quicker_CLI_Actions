@@ -1,0 +1,73 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:getCurrentTime",
+      "InputParams": {
+        "source": {
+          "VarKey": null,
+          "Value": "fromVar"
+        },
+        "timeVar": {
+          "VarKey": "",
+          "Value": null
+        },
+        "addDays": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "addHours": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "addMinutes": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "addSeconds": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "addMonths": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "format": {
+          "VarKey": null,
+          "Value": "yyyy-MM-dd HH:mm:ss"
+        },
+        "outputCulture": {
+          "VarKey": null,
+          "Value": "CURRENT"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "output": null,
+        "strValue": null,
+        "timeStamp": null,
+        "timeStampMs": null,
+        "year": null,
+        "month": null,
+        "day": null,
+        "hour": null,
+        "minute": null,
+        "second": null,
+        "dayOfWeek": null,
+        "dayOfYear": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

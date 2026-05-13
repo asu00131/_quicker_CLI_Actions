@@ -1,0 +1,37 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:WriteImageFile",
+      "InputParams": {
+        "content": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "filePath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "quality": {
+          "VarKey": null,
+          "Value": "95"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

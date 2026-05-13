@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:whiteboard",
+      "InputParams": {
+        "winPosition": {
+          "VarKey": null,
+          "Value": "15%,30%,85%,70%"
+        },
+        "bgColor": {
+          "VarKey": null,
+          "Value": "#FFFFFFFF"
+        },
+        "penColor": {
+          "VarKey": null,
+          "Value": "#FFFF0000"
+        },
+        "enableTransparent": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "imageWithBackground": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "result": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

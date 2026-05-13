@@ -1,0 +1,40 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:splitString",
+      "InputParams": {
+        "data": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "separator": {
+          "VarKey": null,
+          "Value": ","
+        },
+        "escapeSeparator": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "multiSeparator": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "removeEmpty": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "output": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

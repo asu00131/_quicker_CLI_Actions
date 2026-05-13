@@ -1,0 +1,39 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:basic-ocr",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "table_quicker"
+        },
+        "imgVar": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "lang": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "content": null,
+        "rawData": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

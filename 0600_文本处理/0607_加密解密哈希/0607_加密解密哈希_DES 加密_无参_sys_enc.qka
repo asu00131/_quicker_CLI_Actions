@@ -1,0 +1,64 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:enc",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "enc_des"
+        },
+        "cipherMode": {
+          "VarKey": null,
+          "Value": "CBC"
+        },
+        "paddingMode": {
+          "VarKey": null,
+          "Value": "PKCS7"
+        },
+        "inputContentType": {
+          "VarKey": null,
+          "Value": "text"
+        },
+        "input": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "keyContentType": {
+          "VarKey": null,
+          "Value": "text"
+        },
+        "key": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "ivContentType": {
+          "VarKey": null,
+          "Value": "text"
+        },
+        "iv": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "resultBase64": null,
+        "resultHex": null,
+        "resultLowerHex": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

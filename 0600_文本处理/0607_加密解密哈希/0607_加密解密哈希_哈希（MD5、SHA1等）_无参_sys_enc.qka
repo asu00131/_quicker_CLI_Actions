@@ -1,0 +1,44 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:enc",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "hash"
+        },
+        "hashType": {
+          "VarKey": null,
+          "Value": "MD5"
+        },
+        "inputContentType": {
+          "VarKey": null,
+          "Value": "text"
+        },
+        "input": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "resultBase64": null,
+        "resultHex": null,
+        "resultLowerHex": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

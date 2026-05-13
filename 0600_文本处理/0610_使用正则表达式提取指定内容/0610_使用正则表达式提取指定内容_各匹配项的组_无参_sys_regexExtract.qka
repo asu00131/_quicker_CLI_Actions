@@ -1,0 +1,60 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:regexExtract",
+      "InputParams": {
+        "getGroup": {
+          "VarKey": null,
+          "Value": "2"
+        },
+        "data": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "pattern": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "ignoreCase": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "singleLine": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "multiLine": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "rightToLeft": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "matches": null,
+        "match1 ": null,
+        "match2 ": null,
+        "match3 ": null,
+        "match4 ": null,
+        "match5 ": null,
+        "matchesCollection": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

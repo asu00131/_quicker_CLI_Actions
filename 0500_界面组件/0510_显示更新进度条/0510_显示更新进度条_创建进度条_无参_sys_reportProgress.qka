@@ -1,0 +1,24 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:reportProgress",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "REQUEST_ID"
+        }
+      },
+      "OutputParams": {
+        "progressId": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,17 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:restoreActiveWindow",
+      "InputParams": {},
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": null,
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

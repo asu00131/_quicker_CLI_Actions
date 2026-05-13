@@ -1,0 +1,99 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:form",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "dict"
+        },
+        "dictVar": {
+          "VarKey": "",
+          "Value": null
+        },
+        "title": {
+          "VarKey": null,
+          "Value": "填写表单"
+        },
+        "formForDictDef": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "help": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "titleColumnWidth": {
+          "VarKey": null,
+          "Value": "100"
+        },
+        "windowWidth": {
+          "VarKey": null,
+          "Value": "500"
+        },
+        "windowHeight": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "restoreFocus": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "disableEnterSubmit": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "markdownhelp": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "defaultInputWidth": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "confirm": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "customButtons": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "selectedGroup": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "button": null,
+        "selectedGroup": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

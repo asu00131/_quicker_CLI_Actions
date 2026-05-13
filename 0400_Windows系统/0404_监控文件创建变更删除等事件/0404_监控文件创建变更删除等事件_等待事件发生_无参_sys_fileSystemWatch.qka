@@ -1,0 +1,56 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:fileSystemWatch",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "wait"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "includeSubdirectories": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "filter": {
+          "VarKey": null,
+          "Value": "*.*"
+        },
+        "notifyFilter": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitEvents": {
+          "VarKey": null,
+          "Value": "created"
+        },
+        "waitSeconds": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "fullPath": null,
+        "changedType": null,
+        "oldFullPath": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

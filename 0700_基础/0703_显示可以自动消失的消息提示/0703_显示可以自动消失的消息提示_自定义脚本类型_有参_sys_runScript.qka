@@ -1,0 +1,127 @@
+{
+  "Variables": [
+    {
+      "Key": "script",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "stdout",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "stdoutOnly",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "stderr",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:runScript",
+      "InputParams": {
+        "script": {
+          "VarKey": "script",
+          "Value": null
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "CUSTOM"
+        },
+        "ext": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "encoding": {
+          "VarKey": null,
+          "Value": "default"
+        },
+        "runner": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "argTemplate": {
+          "VarKey": null,
+          "Value": "%FILE%"
+        },
+        "outputEncoding": {
+          "VarKey": null,
+          "Value": "oem"
+        },
+        "workingDir": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "runAsAdmin": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitToExit": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "stdout": "stdout",
+        "stdoutOnly": "stdoutOnly",
+        "stderr": "stderr"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

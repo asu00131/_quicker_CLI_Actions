@@ -1,0 +1,58 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:searchBmp",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "locateByColor"
+        },
+        "color": {
+          "VarKey": null,
+          "Value": "#FF0000"
+        },
+        "bmpTargetType": {
+          "VarKey": null,
+          "Value": "MainScreen"
+        },
+        "searchRect": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "x": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "y": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "bmpColorError": {
+          "VarKey": null,
+          "Value": "10"
+        },
+        "retryCount": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "firstPoint": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

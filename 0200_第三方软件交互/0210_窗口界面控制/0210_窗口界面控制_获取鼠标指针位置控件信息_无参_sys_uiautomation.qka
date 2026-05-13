@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:uiautomation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "GetCursorPointControlInfo"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "value": null,
+        "controlText": null,
+        "rect": null,
+        "controlName": null,
+        "controlType": null,
+        "controlIsEnabled": null,
+        "controlIsVisible": null,
+        "controlNativeWindowHandle": null,
+        "controlTypeId": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

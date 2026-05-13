@@ -1,0 +1,48 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:activateProcessMainWindow",
+      "InputParams": {
+        "process": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "className": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "windowTitle": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "hotkey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "pid": null,
+        "mainWinHandle": null,
+        "mainWinTitle": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

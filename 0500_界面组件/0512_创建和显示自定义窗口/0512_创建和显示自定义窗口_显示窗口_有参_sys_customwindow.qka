@@ -1,0 +1,119 @@
+{
+  "Variables": [
+    {
+      "Key": "isSuccess",
+      "IsLocked": false,
+      "Type": 2,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "errMessage",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    },
+    {
+      "Key": "windowHandle",
+      "IsLocked": false,
+      "Type": 12,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:customwindow",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "Show"
+        },
+        "windowMarkup": {
+          "VarKey": null,
+          "Value": "<Window xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\r\n        xmlns:d=\"http://schemas.microsoft.com/expression/blend/2008\"\r\n        xmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\"\r\n        xmlns:hc=\"https://handyorg.github.io/handycontrol\"\r\n        xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"\r\n        xmlns:qk=\"https://getquicker.net\"\r\n        Width=\"637\"\r\n        Height=\"556\"\r\n        Title=\"Test Window\"\r\n        mc:Ignorable=\"d\">\r\n  <Grid Margin=\"10\">\r\n    <StackPanel>\r\n      <TextBlock Margin=\"10,50,10,50\" Text=\"Hello World！\" FontSize=\"20\" />\r\n     \r\n      <Button Margin=\"10\" qk:Att.Action=\"close:result\" Style=\"{StaticResource ButtonPrimary}\" Width=\"50\">\r\n        关闭\r\n      </Button>\r\n    </StackPanel>\r\n  </Grid>\r\n</Window>"
+        },
+        "dataMapping": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "windowId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "closeWhenDeactivate": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "cscode": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "events": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoCloseTime": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "activateMode": {
+          "VarKey": null,
+          "Value": "AutoActivate"
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": "isSuccess",
+        "windowHandle": "windowHandle",
+        "errMessage": "errMessage"
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

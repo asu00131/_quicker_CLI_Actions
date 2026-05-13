@@ -1,0 +1,71 @@
+{
+  "Variables": [
+    {
+      "Key": "searchText",
+      "IsLocked": false,
+      "Type": 0,
+      "Desc": "",
+      "DefaultValue": "",
+      "SaveState": false,
+      "IsInput": false,
+      "IsOutput": false,
+      "ParamName": "",
+      "InputParamInfo": null,
+      "OutputParamInfo": null,
+      "TableDef": null,
+      "CustomType": null,
+      "Group": ""
+    }
+  ],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:searchBmp",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "locateByText"
+        },
+        "searchText": {
+          "VarKey": "searchText",
+          "Value": null
+        },
+        "bmpTargetType": {
+          "VarKey": null,
+          "Value": "MainScreen"
+        },
+        "searchRect": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "x": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "y": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "retryCount": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "ignoreWindowsOcr": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,65 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:subprogram",
+      "InputParams": {
+        "subProgram": {
+          "VarKey": null,
+          "Value": "@@8f50c3b9-635f-4f56-df5d-08ddcf2ea2b8@6@py"
+        },
+        "var:Python_Version": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:py代码": {
+          "VarKey": null,
+          "Value": "# 进行第一项测试\r\nprint(\"进行第一项测试\\n=====================\")\r\nprint(\"检查基本的数学运算:\")\r\nprint(\"2 + 2 =\", 2 + 2)\r\nprint(\"5 * 3 =\", 5 * 3)\r\n\r\n# 进行第二项测试\r\nprint(\"\\n进行第二项测试\\n=====================\")\r\nprint(\"字符串操作测试:\")\r\nsample_string = \"Hello, Python!\"\r\nprint(\"原始字符串:\", sample_string)\r\nprint(\"大写:\", sample_string.upper())\r\nprint(\"切片:\", sample_string[:5])\r\n\r\n# 进行第三项测试\r\nprint(\"\\n进行第三项测试\\n=====================\")\r\nprint(\"文件操作测试:\")\r\n#with open(\"test_file.txt\", \"w\") as file:\r\n#    file.write(\"写入测试文件内容，该文件存放在\" + os.path.abspath(\"test_file.txt\"))\r\n#with open(\"test_file.txt\", \"r\") as file:\r\n#    print(\"文件内容:\", file.read())\r\n\r\n# 进行第四项测试\r\nprint(\"\\n进行第四项测试\\n=====================\")\r\nprint(\"模块导入测试:\")\r\nimport math\r\nprint(\"math.sqrt(16) =\", math.sqrt(16))\r\n\r\n# 进行第五项测试\r\nprint(\"\\n进行第五项测试\\n=====================\")\r\nprint(\"测试传参转换，需提前在传参写入文本\")\r\nimport sys\r\nimport base64\r\n\r\nargv = sys.argv\r\nprint(\"传入的参数数量：\", len(argv))\r\n\r\ndecoded = ''\r\nif len(argv) > 1:\r\n    b64_text = argv[1]\r\n    try:\r\n        decoded = base64.b64decode(b64_text).decode('utf-8')\r\n        print(\"解码结果：\", decoded)\r\n    except Exception as e:\r\n        print(\"解码失败：\", e)\r\n\r\nif decoded == '':\r\n    print(\"传入的参数是空的\")\r\n\r\n\r\n# 进行第六项测试\r\nprint(\"\\n进行第六项测试\\n=====================\")\r\n# 注释中的 quicker.context.GetVarValue 不应该转换\r\n# 这是 quicker.context.GetVarValue 的测试\r\nprint(\"字符串中的 quicker.context.GetVarValue 不应该转换\")\r\nprint(\"字符串中的 quicker.context.SetVarValue 不应该转换\")\r\nx = quicker.context.GetVarValue('text')\r\nquicker.context.SetVarValue('text', 'value')\r\nprint(\"text变量为\" + x)\r\nprint(\"赋值quicker的text变量为value\")\r\n\r\nprint(\"=====================\")\r\nprint(\"测试完成\")\r\nprint(\"探索，是一次次试探未知；追求，是一步步贴近梦想。愿每次迈出的步伐都点亮新的可能！\")\r\nprint(\"猜猜看，input()函数能使用？\")\r\nprint(\"可以在 Quicker 中同时输出多个变量（前提是有这个变量）？\")\r\nprint(\"...\")\r\nprint(\"py模块中的组合成文本{0}{1}{2}不想显示直接去掉？\\n原汁原味只保留{0}即可\")\r\nprint(\"=====================\")\r\n"
+        },
+        "var:工具包": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:传参": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "var:formatString": {
+          "VarKey": null,
+          "Value": "{0}\r\n【=======stderr=======】\r\n{1}\r\n【===pipErrorMessages===】\r\n{2}"
+        },
+        "var:显示方式": {
+          "VarKey": null,
+          "Value": "笔记本窗口"
+        },
+        "var:更改安装目录": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "skipDebugOutput": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "summary": {
+          "VarKey": null,
+          "Value": " 笔记本窗口"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

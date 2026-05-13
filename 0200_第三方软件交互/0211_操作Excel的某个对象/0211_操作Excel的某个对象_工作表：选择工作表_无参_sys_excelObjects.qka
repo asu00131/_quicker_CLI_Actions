@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:excelObjects",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "CreateWorkbook"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "params": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "activeWorkbook": null,
+        "activeSheet": null,
+        "worksheets": null,
+        "application": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

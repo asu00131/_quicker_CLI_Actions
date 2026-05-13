@@ -1,0 +1,81 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:smtp",
+      "InputParams": {
+        "server": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "port": {
+          "VarKey": null,
+          "Value": "25"
+        },
+        "useSsl": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "account": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "password": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "sender": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "senderName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "to": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "cc": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "bcc": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "subject": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "content": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "attachList": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "isHtml": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

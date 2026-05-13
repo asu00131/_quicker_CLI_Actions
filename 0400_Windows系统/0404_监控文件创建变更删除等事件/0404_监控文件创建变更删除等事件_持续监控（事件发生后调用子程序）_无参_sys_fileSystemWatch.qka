@@ -1,0 +1,61 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:fileSystemWatch",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "callback"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "includeSubdirectories": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "filter": {
+          "VarKey": null,
+          "Value": "*.*"
+        },
+        "notifyFilter": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "createdCallback": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "changedCallback": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "deletedCallback": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "renamedCallback": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

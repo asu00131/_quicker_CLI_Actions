@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:tableoperation",
+      "InputParams": {
+        "table": {
+          "VarKey": "",
+          "Value": null
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "importExcel"
+        },
+        "excelFilePath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "sheetName": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "startRowNum": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rowCount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

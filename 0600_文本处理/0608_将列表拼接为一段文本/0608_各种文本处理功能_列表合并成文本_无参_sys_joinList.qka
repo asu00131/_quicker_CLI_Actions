@@ -1,0 +1,32 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:joinList",
+      "InputParams": {
+        "list": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "separator": {
+          "VarKey": null,
+          "Value": ","
+        },
+        "escapeSeparator": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "output": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

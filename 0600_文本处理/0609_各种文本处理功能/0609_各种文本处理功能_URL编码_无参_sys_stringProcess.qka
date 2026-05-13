@@ -1,0 +1,38 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:stringProcess",
+      "InputParams": {
+        "data": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "method": {
+          "VarKey": null,
+          "Value": "urlEncode"
+        },
+        "srcEncoding": {
+          "VarKey": null,
+          "Value": "utf-8"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "output": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

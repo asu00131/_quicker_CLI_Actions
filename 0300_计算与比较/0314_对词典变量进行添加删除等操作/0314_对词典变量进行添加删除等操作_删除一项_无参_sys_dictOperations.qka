@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:dictOperations",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "remove"
+        },
+        "dict": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "key": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "ignoreCase": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

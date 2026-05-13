@@ -1,0 +1,53 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:WriteTextFile",
+      "InputParams": {
+        "content": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "filePath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "encoding": {
+          "VarKey": null,
+          "Value": "utf-8"
+        },
+        "addUtf8Bom": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "appendMode": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "addNewLine": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "newLineChars": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

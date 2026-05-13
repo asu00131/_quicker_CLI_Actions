@@ -1,0 +1,47 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:color",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "fromString"
+        },
+        "colorStr": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "format": {
+          "VarKey": null,
+          "Value": "HEX_RGB"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "A": null,
+        "R": null,
+        "G": null,
+        "B": null,
+        "Hue": null,
+        "HslS": null,
+        "HslL": null,
+        "HsvS": null,
+        "HsvV": null,
+        "textValue": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

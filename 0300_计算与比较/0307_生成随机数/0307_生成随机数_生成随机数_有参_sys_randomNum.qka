@@ -1,0 +1,28 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:randomNum",
+      "InputParams": {
+        "min": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "max": {
+          "VarKey": null,
+          "Value": "100"
+        }
+      },
+      "OutputParams": {
+        "output": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

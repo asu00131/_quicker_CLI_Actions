@@ -1,0 +1,52 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:getSelectedText",
+      "InputParams": {
+        "format": {
+          "VarKey": null,
+          "Value": "Rtf"
+        },
+        "waitMs": {
+          "VarKey": null,
+          "Value": "250"
+        },
+        "repeat": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "trim": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "tryNoClipboard": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "useActionParam": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "output": null,
+        "outputEncoded": null,
+        "url": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "Rtf",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

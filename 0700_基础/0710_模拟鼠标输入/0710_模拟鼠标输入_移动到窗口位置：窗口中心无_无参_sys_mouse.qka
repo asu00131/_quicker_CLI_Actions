@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:mouse",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "toWinCenter"
+        },
+        "hWnd": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "x": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "y": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "slowMove": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "extAction": {
+          "VarKey": null,
+          "Value": "none"
+        },
+        "restoreMousePos": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {},
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

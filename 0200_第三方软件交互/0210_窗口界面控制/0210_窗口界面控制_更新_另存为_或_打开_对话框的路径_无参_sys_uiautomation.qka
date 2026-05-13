@@ -1,0 +1,37 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:uiautomation",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "UpdateSaveAsDialogPath"
+        },
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoCreateDir": {
+          "VarKey": null,
+          "Value": "no"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

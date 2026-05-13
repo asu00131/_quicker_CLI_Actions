@@ -1,0 +1,43 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:tableoperation",
+      "InputParams": {
+        "table": {
+          "VarKey": "",
+          "Value": null
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "update"
+        },
+        "rowData": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "filterExpression": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "affectedRowCount": null,
+        "rowCount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

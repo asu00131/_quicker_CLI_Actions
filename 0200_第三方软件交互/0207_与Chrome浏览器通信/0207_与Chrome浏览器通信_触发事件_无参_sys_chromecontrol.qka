@@ -1,0 +1,54 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:chromecontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "TriggerEvent"
+        },
+        "tabId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "selector": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "triggerEventType": {
+          "VarKey": null,
+          "Value": "click"
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "3000"
+        },
+        "frame": {
+          "VarKey": null,
+          "Value": "all"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "fixSelector": {
+          "VarKey": null,
+          "Value": "auto"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rawResponse": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

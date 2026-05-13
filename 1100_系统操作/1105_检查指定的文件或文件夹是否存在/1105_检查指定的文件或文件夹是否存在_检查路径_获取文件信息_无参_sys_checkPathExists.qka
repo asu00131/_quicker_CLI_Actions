@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:checkPathExists",
+      "InputParams": {
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isExists": null,
+        "isFile": null,
+        "fileLength": null,
+        "isFolder": null,
+        "isReadonly": null,
+        "isHidden": null,
+        "isSystem": null,
+        "fileCount": null,
+        "totalLength": null,
+        "createTime": null,
+        "editTime": null,
+        "metaData": null,
+        "lnkTarget": null,
+        "lnkArguments": null,
+        "md5hash": null,
+        "sha1hash": null,
+        "sha256hash": null,
+        "crc32hash": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

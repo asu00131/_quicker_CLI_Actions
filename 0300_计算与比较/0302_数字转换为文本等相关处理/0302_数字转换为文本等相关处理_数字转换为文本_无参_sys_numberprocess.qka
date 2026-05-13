@@ -1,0 +1,44 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:numberprocess",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "toString"
+        },
+        "srcNumber": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "decimalPlace": {
+          "VarKey": null,
+          "Value": "2"
+        },
+        "roundingMethod": {
+          "VarKey": null,
+          "Value": "Round45"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rtnF": null,
+        "rtnN": null,
+        "rtnPercent": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "数字转换为文本",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

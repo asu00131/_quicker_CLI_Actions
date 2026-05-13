@@ -1,0 +1,48 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:chromecontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "GetTabInfo"
+        },
+        "tabId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "3000"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "tabId": null,
+        "windowId": null,
+        "groupId": null,
+        "url": null,
+        "title": null,
+        "favicon": null,
+        "browser": null,
+        "extVersion": null,
+        "manifestVersion": null,
+        "envName": null,
+        "rawResponse": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

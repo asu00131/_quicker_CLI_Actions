@@ -1,0 +1,179 @@
+你的任务：根据用户需求从模块白名单中选择所需模块。
+
+------------------------------------------------
+# 模块白名单（格式：模块Key | 序号 | 所属类别 | 功能说明）
+
+activateProcessMainWindow | 0408 | Windows系统 | 找到指定进程的主窗口并使其显示在前台
+adobesoftscontrol | 0206 | 第三方软件交互 | 控制Adobe系列软件
+ai | 0901 | 网络服务 | 调用第三方AI服务
+assign | 0306 | 计算与比较 | 为变量赋值
+audioControl | 0419 | Windows系统 | 获取音频设备信息设置默认音频设备
+autocadcontrol | 0205 | 第三方软件交互 | 向AutoCAD发送命令
+basic-ocr | 0908 | 网络服务 | 获取图片中的文字
+break | 1010 | 程序流程 | 跳出循环
+charInfo | 0602 | 文本处理 | 获取字符信息
+checkPathExists | 1105 | 系统操作 | 检查指定的文件或文件夹是否存在
+checkProcessExists | 0411 | Windows系统 | 检查指定的应用程序是否已经启动
+chromecontrol | 0207 | 第三方软件交互 | 与Chrome浏览器通信
+cloud_oss | 0913 | 网络服务 | 使用第三方云服务上传文件
+clouddata | 0903 | 网络服务 | 根据键值读取或写入网络数据
+color | 0304 | 计算与比较 | 转换颜色值及相关计算处理
+comment | 0711 | 基础 | 使用注释将步骤分组
+compute | 0312 | 计算与比较 | 对表达式进行计算
+computeTime | 0308 | 计算与比较 | 时间相关的计算操作
+continue | 1012 | 程序流程 | 跳过后续步骤
+csscript | 1008 | 程序流程 | 执行C#代码片段
+custompanel | 0506 | 界面组件 | 自定义悬浮操作窗口
+customwindow | 0512 | 界面组件 | 创建和显示自定义窗口
+dboperation | 0305 | 计算与比较 | 对数据库执行SQL语句并返回结果
+delay | 0706 | 基础 | 等待指定的毫秒数
+dependencycheck | 1004 | 程序流程 | 检查和下载依赖的外部文件包
+dictOperations | 0314 | 计算与比较 | 对词典变量进行添加删除等操作
+download | 0912 | 网络服务 | 下载网络文件
+each | 1001 | 程序流程 | 对列表的每项执行处理
+enc | 0607 | 文本处理 | 加密解密哈希
+everythingsearch | 1106 | 系统操作 | 调用Everything提供的接口搜索文件
+excelObjects | 0211 | 第三方软件交互 | 操作Excel的某个对象
+excelRange | 0208 | 第三方软件交互 | 操作Excel的某个区域或单元格
+excelreadwrite | 0209 | 第三方软件交互 | 读取Excel文件内容或写入Excel文件
+fileOperation | 1110 | 系统操作 | 文件和目录操作
+fileSystemWatch | 0404 | Windows系统 | 监控文件创建变更删除等事件
+fileToClipboard | 0106 | 剪贴板操作 | 将文件或文件列表存入剪贴板
+flauiautomation | 0204 | 第三方软件交互 | 触发Windows窗口的菜单按钮等控件
+form | 0511 | 界面组件 | 使用表单窗口编辑多个变量的值
+formatString | 0606 | 文本处理 | 将多个变量组合成一段文本
+GenTempFilePath | 1108 | 系统操作 | 根据指定的扩展名生成一个随机的临时文件名
+getActiveProcessInfo | 0420 | Windows系统 | 获取当前活动窗口进程的信息
+getChromeUrl | 0201 | 第三方软件交互 | 获取当前浏览器网址
+getClipboardFiles | 0102 | 剪贴板操作 | 获取剪贴板中复制的文件列表
+getClipboardImage | 0105 | 剪贴板操作 | 读取剪贴板中的图片内容
+getClipboardText | 0103 | 剪贴板操作 | 读取剪贴板中的文本内容
+getCurrentTime | 0412 | Windows系统 | 获取当前或从文本unix时间戳转换日期时间
+getExplorerPath | 0415 | Windows系统 | 获取资源管理器的当前文件夹路径
+getFolderPath | 0405 | Windows系统 | 返回指定的特殊目录路径
+getSelectedFiles | 0422 | Windows系统 | 获取资源管理器桌面等位置选择的文件或文件夹的路径
+getSelectedText | 0702 | 基础 | 获取选中的文字
+getSysInfo | 0418 | Windows系统 | 返回Windows系统信息
+getWindowTitle | 0417 | Windows系统 | 获取指定窗口的标题等信息
+group | 1013 | 程序流程 | 一组有关的模块
+htmlExtract | 0909 | 网络服务 | 从HTML代码中提取内容
+http | 0907 | 网络服务 | 发送HTTP请求并获取返回结果
+httpserver | 0906 | 网络服务 | 创建临时的本地HTTP服务器
+if | 1003 | 程序流程 | 依据条件执行操作
+imageinfo | 0810 | 图片处理 | 获取图片的尺寸或exif信息
+imeControl | 0402 | Windows系统 | 获取或更改当前的输入法中英文状态
+imgProcess | 0802 | 图片处理 | 图片处理和变换
+imgToBase64 | 0804 | 图片处理 | 图片和Base64转换
+inputScript | 1201 | 键鼠输入 | 多步骤键盘组合输入
+joinList | 0608 | 文本处理 | 将列表拼接为一段文本
+jsonExtract | 0605 | 文本处理 | 提取Json文本中的信息
+jsscript | 1002 | 程序流程 | 执行Js代码片段
+keyInput | 0701 | 基础 | 模拟键盘输入
+keyoperation | 0409 | Windows系统 | 单个键盘按键的操作控制或状态获取
+listOperations | 0313 | 计算与比较 | 对列表变量进行添加删除等操作
+manageList | 0301 | 计算与比较 | 对列表内容进行手工排序添加删除等操作
+mathocr | 0904 | 网络服务 | 数学公式识别
+mouse | 0710 | 基础 | 模拟鼠标输入
+MsgBox | 0712 | 基础 | 弹窗显示消息
+newGuid | 0303 | 计算与比较 | 生成一个新的Guid
+notify | 0703 | 基础 | 显示可以自动消失的消息提示
+numberprocess | 0302 | 计算与比较 | 数字转换为文本等相关处理
+numCompare | 0309 | 计算与比较 | 比较数字大小
+officehelper | 0202 | 第三方软件交互 | 辅助控制Office软件
+openUrl | 0708 | 基础 | 打开指定的网址
+outputText | 0705 | 基础 | 将文本输出到活动窗口中
+pathExtraction | 1107 | 系统操作 | 从文件路径中提取文件名文件夹等信息
+playRecords | 0507 | 界面组件 | 重放录制好的键鼠操作数据
+playSound | 0406 | Windows系统 | 播放声音提示或声音文件
+pythonscript | 1005 | 程序流程 | 运行Python代码
+quickeroperations | 0414 | Windows系统 | 调用Quicker的某个功能
+randomNum | 0307 | 计算与比较 | 生成随机数
+readFile | 1103 | 系统操作 | 将读取的文本或图片内容写入变量
+readQrCode | 0801 | 图片处理 | 识别图片中的二维码
+record | 0505 | 界面组件 | 录制键鼠操作过程
+recordSound | 0416 | Windows系统 | 录制音频到文件或识别语音
+regexExtract | 0610 | 文本处理 | 使用正则表达式提取指定内容
+repeat | 1011 | 程序流程 | 循环指定的次数或符合某个条件时中止
+reportProgress | 0510 | 界面组件 | 显示更新进度条
+restoreActiveWindow | 0421 | Windows系统 | 恢复窗口焦点
+rhinocontrol | 0203 | 第三方软件交互 | 向Rhino发送命令或脚本
+run | 0713 | 基础 | 运行软件或命令打开文件文件夹或网址
+runAction | 1006 | 程序流程 | 执行指定的其他动作
+runScript | 0704 | 基础 | 运行脚本
+screenCapture | 0805 | 图片处理 | 截取屏幕区域
+searchBmp | 0807 | 图片处理 | 在屏幕上查找图片里的内容出现的位置
+select | 0709 | 基础 | 请用户选择一个选项
+selectFile | 0501 | 界面组件 | 用文件选择对话框选择要打开或保存的文件
+SelectFileInExplorer | 0401 | Windows系统 | 在资源管理器中选中文件
+selectFolder | 0502 | 界面组件 | 文件夹选择对话框
+sendKeys | 0707 | 基础 | 发送按键和文本
+sendMessage | 0410 | Windows系统 | 使用SendMessageWin32Api向窗口发送消息
+shelloperation | 0407 | Windows系统 | 针对文件的WindowsShell相关操作
+showImage | 0803 | 图片处理 | 在屏幕上显示图片
+showmenu | 0504 | 界面组件 | 显示一个菜单
+showText | 0601 | 文本处理 | 在独立的窗口中显示文本
+showWaitWin | 0513 | 界面组件 | 显示一个等待用户完成某个操作的提示窗口
+simpleIf | 1007 | 程序流程 | 依据条件执行操作
+smtp | 0902 | 网络服务 | 使用SMTP协议发送邮件
+splitString | 0603 | 文本处理 | 将文本拆分为列表
+stateStorage | 1104 | 系统操作 | 存取状态数据
+stop | 1014 | 程序流程 | 停止动作或从子程序中返回
+strCompare | 0311 | 计算与比较 | 文本比较
+stringProcess | 0609 | 文本处理 | 各种文本处理功能
+strReplace | 0611 | 文本处理 | 替换文本中的指定内容
+tableoperation | 0310 | 计算与比较 | 表格变量的相关处理操作
+tempcloudstore | 0911 | 网络服务 | 将文本文件图片临时保存到云端并得到网址
+tempImgBed | 0808 | 图片处理 | 将图片上传到临时图床
+textCounter | 0604 | 文本处理 | 统计文本行数字符数等
+textSelectTools | 0509 | 界面组件 | 一些常用的选择内容并获取文本的工具
+translation | 0905 | 网络服务 | 调用第三方服务翻译文字到指定的语言
+uiautomation | 0210 | 第三方软件交互 | 窗口界面控制
+userInput | 0714 | 基础 | 请用户输入内容
+waitClipboardChange | 0101 | 剪贴板操作 | 等待剪贴板内容改变
+waitKeyboard | 0508 | 界面组件 | 等待用户按下某个按键
+websocket | 0910 | 网络服务 | Websocket相关操作
+webview2 | 0503 | 界面组件 | 基于微软Edge浏览器内核的组件
+whiteboard | 0809 | 图片处理 | 手写内容生成图片对象
+windowOperations | 0403 | Windows系统 | Window窗口相关操作
+winservice | 0413 | Windows系统 | 获取Windows服务的状态注册表项信息
+writeClipboard | 0104 | 剪贴板操作 | 将文本或图片等内容写入剪贴板
+WriteImageFile | 1109 | 系统操作 | 将图片内容写入文件
+WriteTextFile | 1101 | 系统操作 | 将内容写入文本文件
+zip | 1102 | 系统操作 | Zip压缩或解压缩
+
+------------------------------------------------
+# 分类对照表
+
+0100 | 剪贴板操作
+0200 | 第三方软件交互
+0300 | 计算与比较
+0400 | Windows系统
+0500 | 界面组件
+0600 | 文本处理
+0700 | 基础
+0800 | 图片处理
+0900 | 网络服务
+1000 | 程序流程
+1100 | 系统操作
+1200 | 键鼠输入
+
+------------------------------------------------
+# 输出规则
+
+1. 理解用户需求，拆分为多个独立功能步骤
+2. 从白名单中选择匹配模块，前缀加"sys:"
+3. 去重后按字母顺序排列
+4. 每行一个模块，不允许解释/编号/JSON/重复
+
+------------------------------------------------
+# 示例
+
+输入：读取Excel文件并筛选数据后写入新文件
+输出：
+sys:excelreadwrite
+sys:stringProcess
+sys:regexExtract
+sys:WriteTextFile
+
+------------------------------------------------
+# 用户需求

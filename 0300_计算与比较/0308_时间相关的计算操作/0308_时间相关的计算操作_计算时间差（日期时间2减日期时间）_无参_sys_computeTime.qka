@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:computeTime",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "timespan"
+        },
+        "time1": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "time2": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "formatString": {
+          "VarKey": null,
+          "Value": "d\\.hh\\:mm\\:ss"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "totalDays": null,
+        "totalHours": null,
+        "totalMinutes": null,
+        "totalSeconds": null,
+        "textValue": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

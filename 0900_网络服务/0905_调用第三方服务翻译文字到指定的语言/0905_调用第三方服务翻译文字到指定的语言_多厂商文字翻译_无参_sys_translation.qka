@@ -1,0 +1,49 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:translation",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "multiple"
+        },
+        "text": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "srcLang": {
+          "VarKey": null,
+          "Value": "Auto"
+        },
+        "dstLang": {
+          "VarKey": null,
+          "Value": "Auto"
+        },
+        "vendorList": {
+          "VarKey": null,
+          "Value": "Youdao,Baidu,Tencent,Caiyun"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "resultText": null,
+        "vendorResult": null,
+        "vendorRawData": null,
+        "costPoints": null,
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

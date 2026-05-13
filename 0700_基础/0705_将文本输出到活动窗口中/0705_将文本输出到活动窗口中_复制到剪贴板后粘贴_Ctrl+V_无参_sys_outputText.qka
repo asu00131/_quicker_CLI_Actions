@@ -1,0 +1,49 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:outputText",
+      "InputParams": {
+        "content": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "method": {
+          "VarKey": null,
+          "Value": "paste"
+        },
+        "delayBeforePaste": {
+          "VarKey": null,
+          "Value": "50"
+        },
+        "delayAfterPaste": {
+          "VarKey": null,
+          "Value": "10"
+        },
+        "appendReturn": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "hideInHistory": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

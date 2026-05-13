@@ -1,0 +1,46 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:htmlExtract",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "extractTable"
+        },
+        "source": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "encoding": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "xpath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "writeToSheet": {
+          "VarKey": "",
+          "Value": null
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rootNode": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

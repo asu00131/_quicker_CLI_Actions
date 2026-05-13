@@ -1,0 +1,54 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:chromecontrol",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "RunScript"
+        },
+        "tabId": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "script": {
+          "VarKey": null,
+          "Value": "//.js \r\n"
+        },
+        "timeoutMs": {
+          "VarKey": null,
+          "Value": "3000"
+        },
+        "frame": {
+          "VarKey": null,
+          "Value": "all"
+        },
+        "executionWorld": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "waitManualReturn": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rawResponse": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

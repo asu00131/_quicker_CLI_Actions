@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:excelRange",
+      "InputParams": {
+        "range": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "subRange": {
+          "VarKey": null,
+          "Value": "FullArea"
+        },
+        "operation": {
+          "VarKey": null,
+          "Value": "SetCellSize"
+        },
+        "cellSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

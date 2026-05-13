@@ -1,0 +1,48 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:MsgBox",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "custom"
+        },
+        "message": {
+          "VarKey": null,
+          "Value": "Hello."
+        },
+        "title": {
+          "VarKey": null,
+          "Value": "Quicker"
+        },
+        "customIcon": {
+          "VarKey": null,
+          "Value": "Information"
+        },
+        "customButtons": {
+          "VarKey": null,
+          "Value": "[fa:Regular_Check:#4caf50]是(_Y)|Yes\r\n[fa:Regular_Times:#dc3545]否(_N)|No\r\n[fa:Light_Undo:#444444]取消(_C)|Cancel"
+        },
+        "defaultButton": {
+          "VarKey": null,
+          "Value": "Yes"
+        },
+        "restoreFocus": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "result": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

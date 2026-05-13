@@ -1,0 +1,43 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:imageinfo",
+      "InputParams": {
+        "sourceType": {
+          "VarKey": null,
+          "Value": "var"
+        },
+        "bmpVar": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoRotate": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "width": null,
+        "height": null,
+        "rotateDegree": null,
+        "dateTimeOriginal": null,
+        "exifData": null,
+        "rawExifData": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

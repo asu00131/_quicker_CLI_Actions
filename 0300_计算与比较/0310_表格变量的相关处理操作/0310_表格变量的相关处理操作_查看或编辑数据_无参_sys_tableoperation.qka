@@ -1,0 +1,64 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:tableoperation",
+      "InputParams": {
+        "table": {
+          "VarKey": "",
+          "Value": null
+        },
+        "type": {
+          "VarKey": null,
+          "Value": "manage"
+        },
+        "sort": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "gridSelectionMode": {
+          "VarKey": null,
+          "Value": "Cells"
+        },
+        "isReadOnly": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "windowTitle": {
+          "VarKey": null,
+          "Value": "表格数据"
+        },
+        "helpText": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "false"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "isConfirmed": null,
+        "selectedRows": null,
+        "rowCount": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:excelreadwrite",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "batchReplace"
+        },
+        "worksheet": {
+          "VarKey": "",
+          "Value": null
+        },
+        "replaceDict": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "replacePrefixSuffix": {
+          "VarKey": null,
+          "Value": "{{\r\n}}"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

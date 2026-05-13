@@ -1,0 +1,88 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:run",
+      "InputParams": {
+        "path": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "arg": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "runas": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "activateWindowIfRunning": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "activateWindowHotkey": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "alternativePath": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "setWorkingDir": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "windowStyle": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitInputIdle": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "waitExit": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "username": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "password": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "outputEncoding": {
+          "VarKey": null,
+          "Value": "oem"
+        },
+        "envVariables": {
+          "VarKey": null,
+          "Value": ""
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "pid": null,
+        "mainWinHandle": null,
+        "mainWinTitle": null,
+        "stdout": null,
+        "stdoutOnly": null,
+        "stderr": null,
+        "exitCode": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

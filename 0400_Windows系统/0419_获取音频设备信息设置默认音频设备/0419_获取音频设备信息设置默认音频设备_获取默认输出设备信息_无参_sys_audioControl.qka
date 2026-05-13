@@ -1,0 +1,37 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:audioControl",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "GetOutputDefaultDevice"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "deviceId": null,
+        "deviceName": null,
+        "deviceState": null,
+        "mute": null,
+        "isPlaying": null,
+        "volume": null,
+        "masterPeakValue": null,
+        "deviceObject": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

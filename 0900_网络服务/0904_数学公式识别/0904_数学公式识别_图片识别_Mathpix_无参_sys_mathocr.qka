@@ -1,0 +1,40 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:mathocr",
+      "InputParams": {
+        "vendor": {
+          "VarKey": null,
+          "Value": "Mathpix"
+        },
+        "image": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "mathpixMarkdown": null,
+        "latex": null,
+        "mathml": null,
+        "asciimath": null,
+        "latexEx1": null,
+        "latexEx2": null,
+        "rawData": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

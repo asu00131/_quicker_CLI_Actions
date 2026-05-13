@@ -1,0 +1,41 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:numberprocess",
+      "InputParams": {
+        "operation": {
+          "VarKey": null,
+          "Value": "baseConversion"
+        },
+        "srcNumberStr": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "srcBase": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "rtnInteger": null,
+        "resultHex": null,
+        "resultOctal": null,
+        "resultBin": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

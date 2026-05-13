@@ -1,0 +1,24 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showWaitWin",
+      "InputParams": {
+        "mode": {
+          "VarKey": null,
+          "Value": "waitClose"
+        }
+      },
+      "OutputParams": {
+        "selectedOperation": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

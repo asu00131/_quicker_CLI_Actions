@@ -1,0 +1,52 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showmenu",
+      "InputParams": {
+        "menuData": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontsize": {
+          "VarKey": null,
+          "Value": "12"
+        },
+        "iconsize": {
+          "VarKey": null,
+          "Value": "16"
+        },
+        "maxHeight": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "useFocus": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "waitMenuClose": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "selectedItemData": null,
+        "selectedItem": null,
+        "clickButton": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}

@@ -1,0 +1,118 @@
+{
+  "Variables": [],
+  "Steps": [
+    {
+      "StepRunnerKey": "sys:showText",
+      "InputParams": {
+        "type": {
+          "VarKey": null,
+          "Value": "NO_WAIT"
+        },
+        "text": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "title": {
+          "VarKey": null,
+          "Value": "文本窗口"
+        },
+        "autoCloseKey": {
+          "VarKey": null,
+          "Value": "="
+        },
+        "topMost": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "stopIfFail": {
+          "VarKey": null,
+          "Value": "1"
+        },
+        "operations": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "winLocation": {
+          "VarKey": null,
+          "Value": "CenterScreen"
+        },
+        "winSize": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "fontsize": {
+          "VarKey": null,
+          "Value": "14"
+        },
+        "fontfamily": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "bgColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "textColor": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "highlight": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "autoSaveToState": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "enableEscClose": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "closeWhenLostFocus": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "showLineNum": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "autoWrap": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "showBuildInToolbar": {
+          "VarKey": null,
+          "Value": "true"
+        },
+        "copyWholeLine": {
+          "VarKey": null,
+          "Value": "false"
+        },
+        "caretPosition": {
+          "VarKey": null,
+          "Value": "0"
+        },
+        "advancedSettings": {
+          "VarKey": null,
+          "Value": ""
+        },
+        "updateIfExists": {
+          "VarKey": null,
+          "Value": "0"
+        }
+      },
+      "OutputParams": {
+        "isSuccess": null,
+        "windowHandle": null,
+        "errMessage": null
+      },
+      "IfSteps": null,
+      "ElseSteps": null,
+      "Note": "",
+      "Disabled": false,
+      "Collapsed": false,
+      "DelayMs": 0
+    }
+  ],
+  "SubPrograms": []
+}
